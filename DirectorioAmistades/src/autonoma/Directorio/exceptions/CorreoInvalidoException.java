@@ -1,13 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package autonoma.Directorio.exceptions;
 
-/**
- *
- * @author Estudiante
- */
-public class CorreoInvalidoException {
-    
+
+public class CorreoInvalidoException extends AmigoException  {
+    public CorreoInvalidoException(String mensaje) {
+        super(mensaje);
+    }
 }
